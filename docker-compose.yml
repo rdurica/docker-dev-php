@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+   web:
+      container_name: php
+      build: ./config/
+      image: php-7.3
+      ports:
+       - "80:80"
+       - "443:443"
+      volumes:
+       - ./www:/var/www/html
+       - ./container/php/php.ini:/usr/local/etc/php/php.ini
+   database:
+      container_name: database
+      image: mariadb
+      ports:
+       - "3306:3306"
+      volumes:
+       - ./container/database:/var/lib/mysql
+      environment:
+       - MYSQL_ROOT_PASSWORD=password
+       - MYSQL_ROOT_HOST=%
