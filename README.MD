@@ -1,6 +1,10 @@
 ## Docker for dev
-Only for local development of PHP applications
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Latest Stable Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/rdurica/docker-dev-php/releases)
+
+
+Only for local development of PHP applications
 #### Installed SW
 * Apache 2
 * PHP 7.3.3
