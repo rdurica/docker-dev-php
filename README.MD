@@ -1,7 +1,7 @@
 ## Docker for dev
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Latest Stable Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/rdurica/docker-dev-php/releases)
+[![License: MIT](https://img.shields.io/github/license/rdurica/docker-dev-php.svg?style=flat-square)](LICENSE)
+[![Latest Stable Version](https://img.shields.io/github/release/rdurica/docker-dev-php.svg?style=flat-square)](https://github.com/rdurica/docker-dev-php/releases)
 
 
 Only for local development of PHP applications
