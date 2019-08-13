@@ -6,23 +6,18 @@
 
 Only for local development of PHP applications
 #### Installed SW
-* Apache 2
-* PHP 7.3.3
+* Apache2
+* PHP 7.3.8
 * MariaDB
 * Composer
 * Nodejs
-* NPM
-
-#### Container names
-* php
-* database
+* Yarn
 
 #### Database default credentials
-Username: ```root```
+Username: <code>root</code>
 
-Password: ```password```
+Password: <code>password</code>
 
 #### Ports
 * 80:80
-* 443:443
 * 3306:3306
